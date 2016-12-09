@@ -15,6 +15,7 @@ http://scene.arcgis.com/arcgis/rest/services/Hosted/buildings_Indianapolis/Scene
 - To edit the scene layer URL and Name hold down left shift + left mouse click on desired layer button
 - To zoom to the extent of a layer hold down z + left mouse click on desired layer button
 
+The application saves the configured layers, the topology and elevation states between restarts.
 
 # Dependencies
 - Qt5.7 https://www.qt.io/qt5-7/
@@ -27,4 +28,5 @@ http://scene.arcgis.com/arcgis/rest/services/Hosted/buildings_Indianapolis/Scene
 ```shell
 $ ../deploy.sh
 ```
+- now you can copy and run the eview.app on another computer without the need to install the QT and ArcGIS SDKs.
 
