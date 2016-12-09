@@ -210,6 +210,7 @@ void DisplaySceneLayer::setElevationStatus(bool checked)
         return;
 
     elv_button->setProperty("checked", checked);
+    elevationChanged(checked);
 }
 
 

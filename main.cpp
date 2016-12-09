@@ -49,7 +49,7 @@ int main(int argc, char *argv[])
     // Set the source
     view.setSource(QUrl("qrc:/eview.qml"));
 
-    view.setTitle("GroundVu Map Viewer");
+    view.setTitle("GroundVu Map Viewer ("+QString(VERSION)+")");
     view.show();
     view.installEventFilter(DisplaySceneLayer::sceneLayer);
 

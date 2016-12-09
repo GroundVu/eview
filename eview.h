@@ -1,6 +1,9 @@
 #ifndef DISPLAYSCENELAYER_H
 #define DISPLAYSCENELAYER_H
 
+#define VERSION "1.0"
+
+
 namespace Esri
 {
     namespace ArcGISRuntime
