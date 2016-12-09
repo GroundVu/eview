@@ -24,7 +24,7 @@ http://scene.arcgis.com/arcgis/rest/services/Hosted/buildings_Indianapolis/Scene
 - Build the eview.app in qtcreator
 - In a terminal go to the build directory with the eview.app
 - run deployement script
-'''shell
+```shell
 $ ../deploy.sh
-'''
+```
 
