@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>eview.qml</file>
+    </qresource>
+</RCC>
