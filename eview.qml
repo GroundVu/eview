@@ -34,7 +34,7 @@ DisplaySceneLayerGUI {
             }
 //            width: 175 * scaleFactor
             //width: 275
-            Layout.minimumWidth: 300
+            Layout.minimumWidth: 150
             model: ["Topographic","Streets","Imagery","Oceans"]
             onCurrentTextChanged: {
                 // Call C++ invokable function to switch the basemaps
